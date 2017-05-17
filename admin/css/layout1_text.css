@@ -1,0 +1,129 @@
+/****************************************************************/
+/*   Design:   Multiflex-3.12 / Layout-1                        */
+/*   File:     Text formats                                     */
+/*--------------------------------------------------------------*/
+/*   Design:   www.1234.info                                    */
+/*   Date:     January 20, 2008                                 */
+/*--------------------------------------------------------------*/
+/*   License:  Fully open source without restrictions.          */
+/*             Please keep footer credits with the words        */
+/*             "Design by 1234.info". Thank you!                */
+/****************************************************************/
+
+/******************/
+/*  MAIN SECTION  */
+/******************/
+
+/* MAIN CONTENT */
+.main-content h1.pagetitle {margin:0 0 0.4em 0; padding:0 0 2px 0; border-bottom:solid 7px rgb(225,225,225); font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:220%;}
+.main-content h1.block {clear:both; margin:1.0em 0 0em 0; padding:2px 0 2px 2px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:220%;}
+.main-content h1 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:210%;}
+.main-content h2 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:170%;}
+.main-content h3 {clear:both; margin:-1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(125,125,125); font-weight:normal; font-size:130%;}
+.main-content h3.error{color:#FF0000; font-weight:bold; margin-bottom:20px}
+.main-content h3.confirm {
+	width: 400px;
+	margin: 0 0 15px 0;
+	line-height: 20px;
+	padding: 10px 15px;
+	border-top: 1px solid #019609;
+	border-bottom: 1px solid #019609;
+	background-color: #CCFFCD;
+}
+.main-content h1.side {clear:none;}
+.main-content h2.side {clear:none;}
+.main-content h3.side {clear:none;}
+
+.main-content h4 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-weight:normal; font-size:170%;}
+.main-content h5 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-size:140%;}
+.main-content h6 {margin:1.2em 0 0.2em 0; color:rgb(80,80,80); font-weight:bold; font-size:120%;}
+.main-content p {margin:0 0 1.0em 0; line-height:1.5em; font-size:120%;}
+.main-content p.center {text-align:center;}
+.main-content p.right {text-align:right;}
+.main-content p.details {clear:both; margin:-0.25em 0 1.0em 0; line-height:1.0em; font-size:110%;}
+.main-content blockquote {clear:both; margin:0 30px 0.6em 30px; font-size:90%;}
+
+.main-content table {clear:both; width:800px; margin:2.0em 0 0.2em 20px; table-layout: fixed; border-collapse:collapse; empty-cells:show; background-color:rgb(233,232,244);}
+.main-content table th.top {height:35px; padding:0 7px 0 7px; empty-cells:show; background-color:#F4E6C9; text-align:left; color: #000000; font-weight:bold; font-size:130%; text-align:center;}
+.main-content table th {height:3.0em; padding:2px 20px 2px 7px; border-left:solid 2px rgb(255,255,255); border-right:solid 2px rgb(255,255,255); border-top:solid 2px rgb(255,255,255); border-bottom:solid 2px rgb(255,255,255);background-color:rgb(225,225,225); text-align:left; color:rgb(80,80,80); font-weight:bold; font-size:110%;}
+.main-content table td {height:30px; padding:0px 7px 0px 7px; border-left:solid 2px rgb(255,255,255); border-right:solid 2px rgb(255,255,255); border-top:solid 2px rgb(255,255,255); border-bottom:solid 2px rgb(255,255,255); background-color:rgb(225,225,225); text-align:left; font-weight:normal; color:rgb(80,80,80); font-size:130%;}
+
+.main-content table #id { width:70px; text-align:right;}
+.main-content table #name { width:190px; text-align:center;}
+.main-content table #action { width:100px; text-align:center;}
+.main-content table td.url { width:180px; text-align:left;}
+.main-content table td.comment { width:100px; text-align:left;}
+.main-content table td.time { width:80px; text-align:left;}
+.main-content table td.email { width:150px; text-align:left;}
+.main-content table td.sname { width:70px; text-align:left;}
+.main-content table td.gender { width:50px; text-align:left;}
+.main-content table #action1{ width:140px; text-align:center;}
+.main-content table td.id { text-align:right;}
+.main-content table td.ava { text-align:center; padding-left:30px;}
+.main-content table #ava { width:85px; text-align:center;}
+.main-content table #qty { width:50px; text-align:center;}
+.main-content table td.img { padding-left:20px;}
+.main-content table td img.prod { width:60px; height:80px;}
+
+
+
+
+
+p.caption {clear:both; margin:0.5em 0 2.0em 20px; text-align:left; color:rgb(80,80,80); font-size:110%;}
+
+.main-content ul {list-style:none; margin:0.5em 0 1.0em 0;}
+.main-content ul li {margin:0 0 0.2em 2px; padding:0 0 0 12px; background:url(../img/bg_bullet_full_1.gif) no-repeat 0 0.5em; line-height:1.4em; font-size:120%;}
+.main-content ol {margin:0.5em 0 1.0em 20px !important /*Non-IE6*/; margin:0.5em 0 1.0em 25px /*IE6*/;}
+.main-content ol li {list-style-position:outside; margin:0 0 0.2em 0; line-height:1.4em; font-size:120%;}
+
+.contactform {width:450px; margin:2.0em 0 0 0; padding:10px 10px 0 10px; border:solid 1px rgb(200,200,200); background-color:#FFFFF0;}
+.contactform fieldset {padding:20px 0 0 0 !important /*Non-IE6*/; padding:0 /*IE6*/; margin:0 0 20px 0; border:solid 1px rgb(220,220,220);}
+.contactform fieldset legend {margin:0 0 0 5px !important /*Non-IE*/; margin:0 0 20px 5px /*IE6*/; padding:0 2px 0 2px; color:rgb(80,80,80); font-weight:bold; font-size:130%;}
+.contactform label.left {float:left; width:110px; margin:0 0 0 10px; padding:2px; font-size:110%; font-weight:bold;}
+
+
+
+.contactform label.label_1 {float:left; width:220px;  height:70px; margin:0 0 0 10px; padding:30px 0px 0px 25px; font-size:110%; font-weight:bold; background: url(../img/square1.gif) no-repeat;}
+.contactform label.label_2 {float:left; width:220px;  height:70px; margin:0 0 0 10px; padding:30px 0px 0px 45px; font-size:110%; font-weight:bold; background: url(../img/square2.gif) no-repeat;}
+.contactform label.label_3 {float:left; width:220px;  height:70px; margin:0 0 0 10px; padding:30px 0px 0px 45px; font-size:110%; font-weight:bold; background: url(../img/square3.gif) no-repeat;}
+.contactform label.label_4 {float:left; width:220px;  height:70px; margin:0 0 0 10px; padding:30px 0px 0px 45px; font-size:110%; font-weight:bold; background: url(../img/square4.gif) no-repeat;}
+
+.contactform select.combo {width:175px; padding:2px; border: 1px solid #E0D0B1; font-family:verdana,arial,sans-serif; font-size:110%;}
+.contactform input.field {width:275px; padding:2px; border: 1px solid #E0D0B1; font-family:verdana,arial,sans-serif; font-size:110%;}
+.contactform textarea {width:275px; padding:2px; border: 1px solid #E0D0B1; font-family:verdana,arial,sans-serif; font-size:110%;}
+.contactform input:focus, textarea:focus, select:focus {
+	background-color: #F0EBD6;
+	}
+.contactform input.button { width:9.0em; margin-left:170px; padding:1px !important /*Non-IE6*/; padding:0 /*IE6*/; background:rgb(230,230,230); border:solid 1px rgb(150,150,150); text-align:center; font-family:verdana,arial,sans-serif; color:rgb(150,150,150); font-size:110%;}
+.contactform input.button:hover {cursor: pointer; border: 1px solid  #FF9900; background:#F0EBD6; color: #000000; font-weight:bold;}
+.contactform span.required { margin-left:5px; color: #CC0000}
+.contactform span.error { margin-left:30px; color: #FF0000}
+.contactform #photo{width:150px; }
+
+.loginform {width:400px; padding:15px 50px 10px 20px; margin:-10px 20px 0 20px; border:solid 1px rgb(200,200,200); background-color:#FFFFF0;}
+.loginform p {clear:both; margin-:0; padding:0;}
+.loginform fieldset {width:160px; border:none;}
+.loginform label.top {float:left; width:125px; margin:0 0 2px 0; font-size:110%; font-weight:bold;}
+.loginform label.right {float:left; width:125px; margin:5px 0 0 0; padding:0 0 0 3px; /*IE6*/; font-size:110%;}
+.loginform input.field {width:158px; margin:0 0 5px 0; padding:0.1em 0 0.2em 0 !important /*Non-IE6*/; padding:0.2em 0 0.3em 0 /*IE6*/; border:solid 1px rgb(200,200,200); font-family:verdana,arial,sans-serif; font-size:110%;}
+.loginform input:focus {
+	background-color: #F0EBD6;
+	}
+.loginform input.checkbox {float:left; margin:5px 0 0 0 !important /*Non-IE6*/; margin:2px 0 0 -3px /*IE6*/; border:none;}
+.loginform input.button {float:left; width:5.0em; margin:10px 0 5px 0; padding:1px; background:rgb(230,230,230); border:solid 1px rgb(150,150,150); text-align:center; font-family:verdana,arial,sans-serif; color:rgb(150,150,150); font-size:110%;}
+.loginform input.button:hover {cursor: pointer; border: 1px solid  #FF9900; background:#F0EBD6; color: #000000; font-weight:bold;}
+
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+.main img {clear:both; float:left; margin:3px 2px 7px 0; padding:1px; border:1px solid rgb(150,150,150); border:none;}
+.main img.center {clear:both; float:none; display:block; margin:0 auto; padding:1px; border:1px solid rgb(150,150,150);}
+.main img.right {clear:both; float:right; margin:3px 0 7px 10px; padding:1px; border:1px solid rgb(150,150,150);}
+
+.main a {color:rgb(70,122,167); font-weight:bold; text-decoration:none; border:none;}
+.main-content h1 a {color:rgb(70,122,167); font-weight:normal; text-decoration:none;}
+.main a:hover {color:rgb(42,90,138); text-decoration:underline;}
+.main a:visited {color:rgb(42,90,138);}
+
+.main a img {border:solid 1px rgb(150,150,150); border:none;}
+.main a:hover img {border:solid 1px rgb(220,220,220); border:none;}
